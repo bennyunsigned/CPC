@@ -35,12 +35,12 @@ export default function FooterComponent() {
     const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
     if (email !== "" && regex.test(email)) {
-        notifySuccess("Congratulations, you are now signed up for Newsletters!");
-        document.getElementById("txtemail").value="";
+      notifySuccess("Congratulations, you are now signed up for Newsletters!");
+      document.getElementById("txtemail").value = "";
     } else {
-        notifyError("Please enter a valid email Id!");
+      notifyError("Please enter a valid email Id!");
     }
-}
+  }
 
 
   return (
@@ -109,8 +109,8 @@ export default function FooterComponent() {
                 &copy; <NavLink to="/">Cellera Power Care</NavLink>, All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
-
-
+                <a href={process.env.PUBLIC_URL + "/Assets/docs/Privacy Policy.docx"} className="text-white me-3">Privacy Policy</a>
+                <a href={process.env.PUBLIC_URL + "/Assets/docs/Child Safety & Data Protection Policy.docx"} className="text-white">Child Safety Policy</a>
               </div>
             </div>
           </div>
