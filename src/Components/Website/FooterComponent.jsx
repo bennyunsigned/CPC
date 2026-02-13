@@ -109,8 +109,8 @@ export default function FooterComponent() {
                 &copy; <NavLink to="/">Cellera Power Care</NavLink>, All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
-                <a href={process.env.PUBLIC_URL + "/Assets/docs/Privacy Policy.docx"} className="text-white me-3">Privacy Policy</a>
-                <a href={process.env.PUBLIC_URL + "/Assets/docs/Child Safety & Data Protection Policy.docx"} className="text-white">Child Safety Policy</a>
+                <NavLink to="/privacy-policy" className="text-white me-3">Privacy Policy</NavLink>
+                <NavLink to="/child-safety-policy" className="text-white">Child Safety Policy</NavLink>
               </div>
             </div>
           </div>

@@ -10,6 +10,10 @@ import About from "./Components/Website/about.jsx";
 import GetQuote from "./Components/Website/getaquote.jsx";
 
 
+import PrivacyPolicy from "./Components/Website/PrivacyPolicy.jsx";
+import ChildSafetyPolicy from "./Components/Website/ChildSafetyPolicy.jsx";
+
+
 function App() {
   const scrolltop = () => {
     window.scrollTo({
@@ -18,25 +22,25 @@ function App() {
     });
   };
 
-  
+
 
   const testimonials = [
     {
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       author: 'John Doe',
-      image:'../../../public/img/testimonial-1.jpg',
+      image: '../../../public/img/testimonial-1.jpg',
     },
     {
       text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       author: 'Jane Smith',
-      image:'../../../public/img/testimonial-2.jpg',
+      image: '../../../public/img/testimonial-2.jpg',
     }
-    
+
   ];
 
   return (
     <>
-      <Router>       
+      <Router>
         <Navbar></Navbar>
         <Routes>
           <Route
@@ -74,11 +78,25 @@ function App() {
               return <Projects headshow="true" />;
             }}
           ></Route>
-          
-           <Route
+
+          <Route
             path="/quote"
             Component={() => {
-              return <GetQuote  />;
+              return <GetQuote />;
+            }}
+          ></Route>
+
+          <Route
+            path="/privacy-policy"
+            Component={() => {
+              return <PrivacyPolicy headshow="true" />;
+            }}
+          ></Route>
+
+          <Route
+            path="/child-safety-policy"
+            Component={() => {
+              return <ChildSafetyPolicy headshow="true" />;
             }}
           ></Route>
         </Routes>
