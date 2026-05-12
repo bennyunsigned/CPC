@@ -25,23 +25,70 @@ export default function PrivacyPolicy(props) {
                         <div className="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                             <h1 className="text-primary mb-4">Privacy Policy</h1>
                             <p className="mb-4">
-                                At Cellera Power Care, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard the data you provide to us through our website and services.
+                                Cellera Eco Solution (“we,” “our,” or “us”) is a recognized solar power installation company committed to protecting the privacy and personal information of our customers, partners, and website visitors. This Privacy Policy explains how we collect, use, disclose, and safeguard information when you interact with our services, website, or communications.
                             </p>
 
-                            <h5 className="mb-3">Information Collection</h5>
-                            <p>We may collect personal information such as your name, email address, phone number, and address when you interact with our website, subscribe to our newsletter, or request a quote.</p>
+                            <h5 className="mb-3">1. Information We Collect</h5>
+                            <p>We may collect personal and non-personal information, including but not limited to:</p>
+                            <ul>
+                                <li>Full name, contact number, email address, and postal address</li>
+                                <li>Property details required for solar assessment and installation</li>
+                                <li>Identification or documentation provided for government subsidies or approvals</li>
+                                <li>Billing and payment-related information</li>
+                                <li>Website usage data such as IP address, browser type, pages visited, and interaction logs</li>
+                                <li>Precise location data from mobile devices to track field staff during solar installations and calculate fuel reimbursement</li>
+                            </ul>
 
-                            <h5 className="mb-3">Use of Information</h5>
-                            <p>The information we collect is used to provide and improve our services, communicate with you, process your requests, and send you relevant updates and marketing materials with your consent.</p>
+                            <h5 className="mb-3">2. How We Use Your Information</h5>
+                            <p>The information we collect is used to:</p>
+                            <ul>
+                                <li>Provide solar consultation, installation, and maintenance services</li>
+                                <li>Conduct site surveys, system design, and performance analysis</li>
+                                <li>Track field staff locations for operational efficiency and accurate fuel reimbursement processing</li>
+                                <li>Process payments, invoices, and service requests</li>
+                                <li>Communicate updates, quotations, offers, and service notifications</li>
+                                <li>Improve our services, website functionality, and customer experience</li>
+                                <li>Comply with legal, regulatory, and contractual obligations</li>
+                            </ul>
 
-                            <h5 className="mb-3">Data Security</h5>
-                            <p>We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
+                            <h5 className="mb-3">3. Sharing and Disclosure of Information</h5>
+                            <p>Cellera Eco Solution does not sell or rent personal information. We may share data only with:</p>
+                            <ul>
+                                <li>Authorized employees and technicians involved in service delivery</li>
+                                <li>Government authorities or utility providers for permits, net metering, or subsidies</li>
+                                <li>Trusted third-party vendors assisting in operations, under strict confidentiality</li>
+                                <li>Legal or regulatory bodies when required by law</li>
+                            </ul>
 
-                            <h5 className="mb-3">Third-Party Disclosure</h5>
-                            <p>We do not sell, trade, or otherwise transfer your personal information to outside parties without your consent, except as required by law or to provide our services.</p>
+                            <h5 className="mb-3">4. Data Security</h5>
+                            <p>We implement appropriate administrative, technical, and physical safeguards to protect personal information against unauthorized access, alteration, disclosure, or destruction. While we strive to use commercially acceptable means to protect data, no method of transmission over the internet is 100% secure.</p>
 
-                            <h5 className="mb-3">Your Rights</h5>
-                            <p>You have the right to access, correct, or delete your personal information held by us. If you have any questions or concerns regarding your privacy, please contact us at mycpc@gmail.com.</p>
+                            <h5 className="mb-3">5. Data Retention</h5>
+                            <p>We retain personal information only for as long as necessary to fulfill the purposes outlined in this policy or as required by applicable laws and regulations.</p>
+
+                            <h5 className="mb-3">6. Cookies and Tracking Technologies</h5>
+                            <p>Our website may use cookies and similar technologies to enhance user experience, analyze traffic, and improve performance. Users may choose to disable cookies through browser settings.</p>
+
+                            <h5 className="mb-3">7. Your Rights</h5>
+                            <p>You have the right to:</p>
+                            <ul>
+                                <li>Access, update, or correct your personal information</li>
+                                <li>Request deletion of your data, subject to legal obligations</li>
+                                <li>Opt out of promotional communications</li>
+                            </ul>
+
+                            <h5 className="mb-3">8. Third-Party Links</h5>
+                            <p>Our website may contain links to external websites. We are not responsible for the privacy practices or content of those third parties.</p>
+
+                            <h5 className="mb-3">9. Policy Updates</h5>
+                            <p>Cellera Eco Solution reserves the right to update this Privacy Policy at any time. Changes will be posted on our website with an updated effective date.</p>
+
+                            <h5 className="mb-3">10. Contact Us</h5>
+                            <p>For any questions or concerns regarding this Privacy Policy, please contact:</p>
+                            <p>Cellera Eco Solution<br />
+                                Email: info@mycpc.in<br />
+                                Phone: 9090033366
+                            </p>
                         </div>
                     </div>
                 </div>
