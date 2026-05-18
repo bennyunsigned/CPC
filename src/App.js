@@ -12,6 +12,7 @@ import GetQuote from "./Components/Website/getaquote.jsx";
 
 import PrivacyPolicy from "./Components/Website/PrivacyPolicy.jsx";
 import ChildSafetyPolicy from "./Components/Website/ChildSafetyPolicy.jsx";
+import TermsAndConditions from "./Components/Website/TermsAndConditions.jsx";
 
 
 function App() {
@@ -97,6 +98,13 @@ function App() {
             path="/child-safety-policy"
             Component={() => {
               return <ChildSafetyPolicy headshow="true" />;
+            }}
+          ></Route>
+
+          <Route
+            path="/terms-and-conditions"
+            Component={() => {
+              return <TermsAndConditions headshow="true" />;
             }}
           ></Route>
         </Routes>

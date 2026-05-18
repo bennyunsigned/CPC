@@ -110,7 +110,8 @@ export default function FooterComponent() {
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <NavLink to="/privacy-policy" className="text-white me-3">Privacy Policy</NavLink>
-                <NavLink to="/child-safety-policy" className="text-white">Child Safety Policy</NavLink>
+                <NavLink to="/child-safety-policy" className="text-white me-3">Child Safety Policy</NavLink>
+                <NavLink to="/terms-and-conditions" className="text-white">Terms and Conditions</NavLink>
               </div>
             </div>
           </div>
